@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>REC ECE 7th Sem</title>
     <style>
 table {
@@ -41,6 +41,14 @@ table {
             background-color: rgb(255, 241, 46);
             transition: 1s;
         }
+        
+        button {
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+        }
+        
+        button:hover {
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+        }
     }
 }
     </style>
@@ -48,67 +56,76 @@ table {
 
 <body>
     <h1> 7th Sem Routine</h1>
-    <table style="overflow-x:auto;">
-        <tr>
-            <th>Day</th>
-            <th>9:00 to 9:50</th>
-            <th>9:50 to 10:40</th>
-            <th>10:40 to 11:30</th>
-            <th>11:30 to 12:20</th>
-            <th>12:20 to 1:20</th>
-            <Th>1:20 to 2:10</Th>
-            <Th>2:10 to 3:00</Th>
-            <Th>3:00 to 3:50</Th>
-            <Th>3:50 to 4:40</Th>
-        </tr>
-        <tr>
-            <td class="break">Monday</td>
-            <td colspan="4">Self Study/Placement Preparation</td>
-            <td class="break">Break</td>
-            <td class="bmi">Bio-Medical Instrumentation </td>
-            <td colspan="3">Library</td>
-        </tr>
-        <tr>
-            <td class="break">Tuesday</td>
-            <td class="sc">Satellite Communication</td>
-            <td>Library</td>
-            <td class="vep">Values and Ethics in Profession</td>
-            <td class="rtes">Real Time Embedded System</td>
-            <td class="break">Break</td>
-            <td colspan="2">Library</td>
-            <td colspan="2" class="ofc">Optical Fiber Communication</td>
+    <div style="overflow-x:auto;">
+        <div class="block glow">
 
-        </tr>
-        <tr>
-            <td class="break">Wednesday</td>
-            <td class="bmi">Bio-Medical Instrumentation</td>
-            <td class="vep">Values and Ethics in Profession</td>
-            <td colspan="2" class="sc">Satellite Communication</td>
-            <td class="break">Break</td>
-            <td class="rtes">Real Time Embedded System</td>
-            <td colspan="3" class="ofc">Optical Fiber Communication (LAB)</td>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>9:00 to 9:50</th>
+                    <th>9:50 to 10:40</th>
+                    <th>10:40 to 11:30</th>
+                    <th>11:30 to 12:20</th>
+                    <th>12:20 to 1:20</th>
+                    <Th>1:20 to 2:10</Th>
+                    <Th>2:10 to 3:00</Th>
+                    <Th>3:00 to 3:50</Th>
+                    <Th>3:50 to 4:40</Th>
+                </tr>
+                <tr>
+                    <td class="break">Monday</td>
+                    <td colspan="4">Self Study/Placement Preparation</td>
+                    <td class="break">Break</td>
+                    <td class="bmi">Real Time Embedded System </td>
+                    <td colspan="3">Library</td>
+                </tr>
+                <tr>
+                    <td class="break">Tuesday</td>
+                    <td class="sc">Satellite Communication</td>
+                    <td>Library</td>
+                    <td class="vep">Values and Ethics in Profession</td>
+                    <td class="rtes">Bio-Medical Instrumentation</td>
+                    <td class="break">Break</td>
+                    <td colspan="2">Library</td>
+                    <td colspan="2" class="ofc">Optical Fiber Communication</td>
 
-        </tr>
-        <tr>
-            <td class="break">Thursday</td>
-            <td colspan="2">Project</td>
-            <td class="bmi">Bio-Medical Instrumentation</td>
-            <td class="vep">Values and Ethics in Profession</td>
-            <td class="break">Break</td>
-            <td colspan="2">Library</td>
-            <td colspan="2" class="ofc">Optical Fiber Communication</td>
+                </tr>
+                <tr>
+                    <td class="break">Wednesday</td>
+                    <td class="bmi">Real Time Embedded System</td>
+                    <td class="vep">Values and Ethics in Profession</td>
+                    <td colspan="2" class="sc">Satellite Communication</td>
+                    <td class="break">Break</td>
+                    <td class="rtes">Bio-Medical Instrumentation</td>
+                    <td colspan="3" class="ofc">Optical Fiber Communication (LAB)</td>
 
-        </tr>
-        <tr>
-            <td class="break">Friday</td>
-            <td>Library</td>
-            <td class="rtes">Real Time Embedded System</td>
-            <td colspan="2">Internship Asst.</td>
-            <td class="break">Break</td>
-            <td colspan="4">Project</td>
+                </tr>
+                <tr>
+                    <td class="break">Thursday</td>
+                    <td colspan="2">Project</td>
+                    <td class="bmi">Real Time Embedded System</td>
+                    <td class="vep">Values and Ethics in Profession</td>
+                    <td class="break">Break</td>
+                    <td colspan="2">Library</td>
+                    <td colspan="2" class="ofc">Optical Fiber Communication</td>
 
-        </tr>
-    </table>
+                </tr>
+                <tr>
+                    <td class="break">Friday</td>
+                    <td>Library</td>
+                    <td class="rtes">Bio-Medical Instrumentation</td>
+                    <td colspan="2">Internship Asst.</td>
+                    <td class="break">Break</td>
+                    <td colspan="4">Project</td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <a href="https://github.com/Vivekkrdev/REC">
+        <button>View Table Source Code in Github</button>
+    </a>
 
 </body>
 
